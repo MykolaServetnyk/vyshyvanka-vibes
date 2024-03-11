@@ -2,12 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vanilla-app-template/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/vyshyvanka-vibes/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>Vyshyvanka Vibes</title>
+    <!--! GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
     
-    <script type="module" crossorigin src="/vanilla-app-template/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/vanilla-app-template/assets/index-10c40100.css">
+    
+    <script type="module" crossorigin src="/vyshyvanka-vibes/commonHelpers.js"></script>
+    <link rel="stylesheet" href="/vyshyvanka-vibes/assets/index-10c40100.css">
   </head>
   <body>
     <header class="header">
@@ -24,15 +36,8 @@
   </nav>
 </header>
 
-
-    <section>
-      <h1>Example page title</h1>
-      <!-- Path to images as from index.html file -->
-      <img src="/vanilla-app-template/assets/javascript-8dac5379.svg" alt="" />
-    </section>
-
-    <!-- Loads the specified .html file -->
-    <section class="vite-promo">
+    <main>
+      <section class="vite-promo">
   <div class="container">
     <div class="wrapper">
       <h2 class="title">
@@ -70,7 +75,7 @@
       <!-- Path to images as from index.html file -->
       <img
         class="pic"
-        src="/vanilla-app-template/assets/vite-logo-51249ca9.png"
+        src="./img/vite-logo.png"
         alt="Vite logo"
         width="640"
         height="640"
@@ -79,7 +84,158 @@
   </div>
 </section>
 
+      <section class="section-about section" id="about-us">
+  <div class="about-section-wrapper container">
+    <div class="about-section-text">
+      <h2 class="title-about">about us</h2>
+      <p class="text-about-one text-about">
+        The store "Vyshyvanka Vibes" is a place where traditional Ukrainian
+        vyshyvanka comes to life with new zest and style. Our store offers a
+        wide selection of high-quality and authentic embroidery, which combines
+        the elegance of traditional needlework and modern design.
+      </p>
+      <p class="text-about-two text-about">
+        In "Vyshyvanka Vibes" you will find various models of embroidery, from
+        classic to modern, corresponding to the latest fashion trends. Our
+        embroidery is made using natural fabrics and is embroidered by highly
+        qualified craftsmen who convey the beauty of Ukrainian culture in every
+        detail.We believe that vyshyvanka is not just clothing, but a symbol of
+        national pride, the heritage of our ancestors and a way of expressing
+        one's individuality. Each embroidery from "Vyshyvanka Vibes" has its own
+        unique history and symbolism, which gives it a special meaning.
+      </p>
+    </div>
+    <picture>
+      <source
+        media="(min-width: 1280px)"
+        srcset="/vyshyvanka-vibes/assets/about-desc-bcd13a95.jpg 1x, /vyshyvanka-vibes/assets/about-desc@2x-8e957d96.jpg 2x"
+        width="594"
+      />
+      <source
+        media="(min-width: 768px) and (max-width: 1279px)"
+        srcset="/vyshyvanka-vibes/assets/about-tab-82bcc018.jpg 1x, /vyshyvanka-vibes/assets/about-tab@2x-e97eb914.jpg 2x"
+        width="704"
+      />
+      <source
+        media="(max-width: 767px)"
+        srcset="/vyshyvanka-vibes/assets/about-mob-b2d9b957.jpg 1x, /vyshyvanka-vibes/assets/about-mob@2x-9afa06a1.jpg 2x"
+        width="335"
+      />
 
+      <img
+        src="./img/about-mob.jpg "
+        alt="Vyshyvanka"
+        width="335"
+        height="499"
+      />
+    </picture>
+  </div>
+</section>
+
+      <section class="our-collection section" id="our-collection">
+  <div class="container">
+    <h2 class="collection-title">Our collection</h2>
+    <ul class="collection-menu list">
+      <li class="collection-list">
+        <div class="collection-img-wrapper">
+          <div class="our-background"></div>
+          <img
+            class="our-collection-item-img"
+            srcset="/vyshyvanka-vibes/assets/august-mob-171fe823.jpg 335w, /vyshyvanka-vibes/assets/about-tab-82bcc018.jpg 342w, /vyshyvanka-vibes/assets/august-desc-5b86d6d6.jpg 347w, /vyshyvanka-vibes/assets/august-mob@2x-397c382e.jpg 670w, /vyshyvanka-vibes/assets/august-tab@2x-eb88ce18.jpg 684w, /vyshyvanka-vibes/assets/august-desc@2x-60c0f9dd.jpg 694w"
+            sizes="(min-width: 1280px) 345px, (min-width: 768px) 340px, (max-width: 767px) 335px"
+            src="/vyshyvanka-vibes/assets/august-mob-171fe823.jpg"
+            alt="August"
+          />
+        </div>
+        <div class="our-collection-content">
+          <h3 class="our-collection-item-name">
+            AUGUST Poltava women's blouseRING
+          </h3>
+          <p class="collection-price">3300 UAH</p>
+        </div>
+      </li>
+      <li class="collection-list">
+        <div class="collection-img-wrapper">
+          <img
+            class="our-collection-item-img"
+            srcset="/vyshyvanka-vibes/assets/gorgany-mob-7cd9ae57.jpg 335w, /vyshyvanka-vibes/assets/gorgany-tab-7a3d0a60.jpg 342w, /vyshyvanka-vibes/assets/gorgany-desc-5c747ef6.jpg 347w, /vyshyvanka-vibes/assets/gorgany-mob@2x-e7e0884c.jpg 670w, /vyshyvanka-vibes/assets/gorgany-tab@2x-d77ef7ab.jpg 684w, /vyshyvanka-vibes/assets/gorgany-desc@2x-6a158776.jpg 694w"
+            sizes="(min-width: 1280px) 345px, (min-width: 768px) 340px, (max-width: 767px) 335px"
+            src="/vyshyvanka-vibes/assets/gorgany-mob-7cd9ae57.jpg"
+            alt="Gorgany"
+          />
+        </div>
+        <div class="our-collection-content">
+          <h3 class="our-collection-item-name">WOMEN'S BLOUSE GORGANY</h3>
+          <p class="collection-price">3350 UAH</p>
+        </div>
+      </li>
+      <li class="collection-list">
+        <div class="collection-img-wrapper">
+          <img
+            class="our-collection-item-img"
+            srcset="/vyshyvanka-vibes/assets/crimea-mob-b59d1973.jpg 335w, /vyshyvanka-vibes/assets/crimea-tab-6e6ff251.jpg 342w, /vyshyvanka-vibes/assets/crimea-desc-a4e7887d.jpg 347w, /vyshyvanka-vibes/assets/crimea-mob@2x-4ae0fd14.jpg 670w, /vyshyvanka-vibes/assets/crimea-tab@2x-384d8047.jpg 684w, /vyshyvanka-vibes/assets/crimea-desc@2x-32994c2f.jpg 694w"
+            sizes="(min-width: 1280px) 343px, (min-width: 768px) 340px, (max-width: 767px) 335px"
+            src="/vyshyvanka-vibes/assets/crimea-mob-b59d1973.jpg"
+            alt="Crimea"
+          />
+        </div>
+        <div class="our-collection-content">
+          <h3 class="our-collection-item-name">WOMEN'S BLOUSE CRIMEA</h3>
+          <p class="collection-price">4000 UAH</p>
+        </div>
+      </li>
+      <li class="collection-list">
+        <div class="collection-img-wrapper">
+          <img
+            class="our-collection-item-img"
+            srcset="/vyshyvanka-vibes/assets/verkhovina-mob-79752ae5.jpg 335w, /vyshyvanka-vibes/assets/verkhovina-tab-8ef714f1.jpg 342w, /vyshyvanka-vibes/assets/verkhovina-desc-3fa6d4fa.jpg 347w, /vyshyvanka-vibes/assets/verkhovina-mob@2x-99d36ba5.jpg 670w, /vyshyvanka-vibes/assets/verkhovina-tab@2x-c44af933.jpg 684w, /vyshyvanka-vibes/assets/verkhovina-desc@2x-bc626cb1.jpg 694w"
+            sizes="(min-width: 1280px) 345px, (min-width: 768px) 340px, (max-width: 767px) 335px"
+            src="/vyshyvanka-vibes/assets/verkhovina-mob-79752ae5.jpg"
+            alt="Verkhovina"
+          />
+        </div>
+        <div class="our-collection-content">
+          <h3 class="our-collection-item-name">MEN'S SHIRT VERKHOVINA</h3>
+          <p class="collection-price">3100 UAH</p>
+        </div>
+      </li>
+      <li class="collection-list">
+        <div class="collection-img-wrapper">
+          <img
+            class="our-collection-item-img"
+            srcset="/vyshyvanka-vibes/assets/shirt-mob-4a4ac9ce.jpg 335w, /vyshyvanka-vibes/assets/shirt-tab-c21c2696.jpg 342w, /vyshyvanka-vibes/assets/shirt-desc-23169b49.jpg 347w, /vyshyvanka-vibes/assets/shirt-mob@2x-1d3b429e.jpg 670w, /vyshyvanka-vibes/assets/shirt-tab@2x-ee51b5ab.jpg 684w, /vyshyvanka-vibes/assets/shirt-desc@2x-996c94ef.jpg 694w"
+            sizes="(min-width: 1280px) 343px, (min-width: 768px) 340px, (max-width: 767px) 335px"
+            src="/vyshyvanka-vibes/assets/shirt-mob-4a4ac9ce.jpg"
+            alt="Mountain"
+          />
+        </div>
+        <div class="our-collection-content">
+          <h3 class="our-collection-item-name">MOUNTAIN MEN'S SHIRT</h3>
+          <p class="collection-price">3300 UAH</p>
+        </div>
+      </li>
+      <li class="collection-list">
+        <div class="collection-img-wrapper">
+          <img
+            class="our-collection-item-img"
+            srcset="/vyshyvanka-vibes/assets/yasen-mob-306b3b12.jpg 335w, /vyshyvanka-vibes/assets/yasen-tab-d51e18e4.jpg 342w, /vyshyvanka-vibes/assets/yasen-desc-5fa090f1.jpg 347w, /vyshyvanka-vibes/assets/yasen-mob@2x-7804a996.jpg 670w, /vyshyvanka-vibes/assets/yasen-tab@2x-907b37c4.jpg 684w, /vyshyvanka-vibes/assets/yasen-desc@2x-29ac1f55.jpg 694w"
+            sizes="(min-width: 1280px) 343px, (min-width: 768px) 340px, (max-width: 767px) 335px"
+            src="/vyshyvanka-vibes/assets/yasen-mob-306b3b12.jpg"
+            alt="Yasen"
+          />
+        </div>
+        <div class="our-collection-content">
+          <h3 class="our-collection-item-name">MEN'S SHIRT YASEN</h3>
+          <p class="collection-price">1700 UAH</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      
+      
+    </main>
     
   </body>
 </html>
